@@ -27,11 +27,13 @@
     border-bottom: 2px solid var(--primary);
 }
 body {
+    background-color: #141414;
     --bodyPaddingTop: 94px;
     padding-top: var(--bodyPaddingTop);
 }
 @media (max-width: 800px) {
     .Menu {
+        padding-top: 5px;
         height: 40px;
         justify-content: center;
     }
